@@ -1,0 +1,31 @@
+{
+  "expo": {
+    "name": "Prato a Prato",
+    "slug": "prato-a-prato",
+    "scheme": "pratoap",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
+    "ios": {
+      "supportsTablet": true
+    },
+    "backgroundColor": "#F7F7FA",
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#F7F7FA"
+      }
+    },
+    "plugins": [
+      "expo-status-bar",
+      "expo-font",
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "Escolha uma foto para registrar sua refeição.",
+          "cameraPermission": false,
+          "microphonePermission": false
+        }
+      ]
+    ]
+  }
+}
